@@ -1,0 +1,38 @@
+// Navbar - Index
+
+.navbar {
+  background: #fff;
+  filter: drop-shadow(0px 2px 32px rgba(0, 0, 0, 0.1));
+  height: 80px;
+
+  .container-fluid {
+    background: #fff;
+    padding: 0 3rem;
+  }
+}
+
+.navbar-nav {
+  align-items: center;
+}
+
+.nav-link {
+  color: #000;
+  padding: 15px !important;
+}
+
+.nav-item button {
+  margin: 15px;
+}
+
+.custom-link {
+  color: #000;
+  text-decoration: none;
+}
+
+// Footer - Index
+
+footer {
+  align-items: center;
+  background: #fff;
+  height: 90px;
+}
