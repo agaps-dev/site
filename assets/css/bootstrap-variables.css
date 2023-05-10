@@ -1,0 +1,10 @@
+.accordion {
+  --bs-accordion-bg: #fff;
+  --bs-accordion-active-bg: #fff;
+  --bs-accordion-border-color: #000;
+  --bs-accordion-border-width: 1.5px;
+  --bs-accordion-border-radius: 0;
+  --bs-accordion-btn-focus-box-shadow: none !important;
+  --bs-accordion-btn-color: #000;
+  --bs-accordion-active-color: #000;
+}
