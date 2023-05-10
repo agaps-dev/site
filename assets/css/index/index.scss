@@ -30,14 +30,14 @@
 
 .custom-link {
   color: #000;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 // Layout
 
 .btn {
   border-radius: 7.6px;
-  padding: 9px 24px;
+  padding: 12px 24px;
 
   &.btn-dark {
     background: #000;
@@ -75,12 +75,16 @@
     border-width: 1.5px;
   }
 
+  .card-body {
+    padding: 24px;
+  }
+
   .card-title {
     background: black;
     border-radius: 100%;
     color: #fff;
     height: fit-content;
-    padding: 15px 20px;
+    padding: 23px 20px;
     width: fit-content;
   }
 
@@ -106,12 +110,6 @@
 
 .accordion-button {
   box-shadow: none !important;
-}
-
-// Tipografia
-
-h2 {
-  font-size: min(9vw, 65px);
 }
 
 // Footer - Index
