@@ -59,6 +59,37 @@
   padding: 60px 5%;
 }
 
+// Soluções - Section
+
+#solucoes {
+  background: #FAFAFB;
+  border-radius: 7.6px;
+  padding: 60px 5%;
+
+  .card {
+    border-color: #000;
+    border-width: 1.5px;
+  }
+
+  .card-title {
+    background: black;
+    border-radius: 100%;
+    color: #fff;
+    height: fit-content;
+    padding: 15px 20px;
+    width: fit-content;
+  }
+
+  .card-subtitle {
+    color: #000 !important;
+    font-size: 24px;
+  }
+
+  .card-text {
+    color: #000 !important;
+  }
+}
+
 // Tipografia
 
 h2 {
