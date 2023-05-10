@@ -29,6 +29,36 @@
   text-decoration: none;
 }
 
+// Layout
+
+.btn {
+  border-radius: 7.6px;
+  padding: 9px 24px;
+
+  &.btn-dark {
+    background: #000;
+  }
+
+  &.btn-light {
+    background: #fff;
+    border: solid 1px #000;
+  }
+}
+
+// Banner - Section
+
+#banner {
+  background: #FAFAFB;
+  min-width: fit-content;
+  padding: 70px 15%;
+}
+
+// Tipografia
+
+h2 {
+  font-size: min(9vw, 65px);
+}
+
 // Footer - Index
 
 footer {
