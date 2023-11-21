@@ -78,6 +78,7 @@ html {
   .card {
     border-color: #000;
     border-width: 1.5px;
+    height: 100%;
   }
 
   .card-body {
@@ -89,6 +90,7 @@ html {
     border-radius: 100%;
     color: #fff;
     height: fit-content;
+    margin-right: 24px !important;
     padding: 23px 20px;
     width: fit-content;
   }
@@ -113,8 +115,20 @@ html {
 
 // FAQ - Section
 
+.accordion-body {
+  line-height: normal;
+}
+
 .accordion-button {
   box-shadow: none !important;
+  border-radius: 0; /* Remove o arredondamento das bordas dos botões */
+}
+
+.accordion-item {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left: none; /* Remover a borda esquerda */
+  border-right: none; /* Remover a borda direita */
 }
 
 // Footer - Index
